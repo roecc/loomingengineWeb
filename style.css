@@ -1,0 +1,45 @@
+@font-face {
+	font-family: roboto-mono;
+	src: url(/Roboto_Mono/static/RobotoMono-Regular.ttf);
+}
+@font-face {
+	font-family: roboto-mono-bold;
+	src: url(/Roboto_Mono/static/RobotoMono-Bold.ttf);
+}
+@font-face {
+	font-family: roboto-mono-semi;
+	src: url(/Roboto_Mono/static/RobotoMono-SemiBold.ttf);
+}
+@font-face {
+	font-family: roboto-mono-light;
+	src: url(/Roboto_Mono/static/RobotoMono-Light.ttf);
+}
+@font-face {
+	font-family: roboto-mono-extra;
+	src: url(/Roboto_Mono/static/RobotoMono-ExtraLight.ttf);
+}
+
+.center-fit {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+h1 {
+	font-family: roboto-mono-bold;
+	font-size: xx-large;
+	font-size: 5vw;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	font-family: roboto-mono;
+	color: grey;
+	font-size: medium;
+	font-size: 2.46vw;
+	margin: 0
+	;
+}
